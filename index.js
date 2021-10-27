@@ -60,4 +60,21 @@ $(document).ready(function(){
         }
     });
 
+    // blogs owl carousel
+    $("#blogs .owl-carousel").owlCarousel({
+        loop:true,
+        dots:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false,
+            },
+            600:{
+                items:3,
+                nav:false,
+            }
+           
+        }
+    })
+
 });
