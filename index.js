@@ -39,4 +39,25 @@ $(document).ready(function(){
         $grid.isotope({filter:filterValue});
     })
 
+
+     // New Sneakers owl carousel
+     $("#new-sneakers .owl-carousel").owlCarousel({
+        loop:true,
+        dots:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:true
+            },
+            1000:{
+                items:5,
+                nav:true,
+            }
+        }
+    });
+
 });
