@@ -95,7 +95,7 @@ $(document).ready(function(){
 
     // click on qty down button
     $qty_down.click(function(e){
-        $(`.qty_input[data-id='${$(this).data("id")}']`);
+       let $input = $(`.qty_input[data-id='${$(this).data("id")}']`);
         if($input.val() > 1 && $input.val() <= 10){
         $input.val(function(i,oldval){
             return --oldval;
