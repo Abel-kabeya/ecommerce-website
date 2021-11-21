@@ -1,5 +1,4 @@
 <?php
-
 class DBController
 {
     // Database Connection Properties
@@ -33,6 +32,3 @@ class DBController
         }
     }
 }
-
-
-?>

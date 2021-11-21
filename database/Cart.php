@@ -1,5 +1,4 @@
 <?php
-
 // php cart class
 class Cart
 {
@@ -117,5 +116,3 @@ class Cart
         }
     }
 }
- 
-?>

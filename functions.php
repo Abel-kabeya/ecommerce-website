@@ -1,5 +1,4 @@
 <?php
-
  // Require MySQL Connection
  require ('database/DBController.php');
 
@@ -21,5 +20,3 @@
 
      // Cart object
      $Wishlist = new Cart($db);
-
-?>

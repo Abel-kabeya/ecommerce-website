@@ -1,5 +1,4 @@
 <?php
-
 // Use to fecth product data
 class Product
 {
@@ -41,16 +40,3 @@ class Product
         return $resultArray;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-?>

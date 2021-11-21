@@ -2,9 +2,6 @@
 ob_start();
 // include header.php file
 include ('header.php');
-?>
-
-<?php
 
      /*  include cart items if it is not empty */ 
      count($product->getData('cart')) ? include('Template/_cart-template.php'): include('Template/notfound/_cart_notfound.php');
@@ -18,9 +15,5 @@ include ('header.php');
     include('Template/_new-sneakers.php');
     /*  include Top-sale section end */ 
 
-?>
-
-<?php
 // include footer.php file
 include ('footer.php');
-?>
